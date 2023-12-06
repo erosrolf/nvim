@@ -1,0 +1,22 @@
+-- Basic
+require('core.plugins')
+require('core.mappings')
+require('core.configs')
+require('core.colors')
+
+-- Plugins
+require('plugins.autopairs')
+require('plugins.bufferline')
+require('plugins.comment')
+require('plugins.neotree')
+require('plugins.treesitter')
+require('plugins.lsp')
+require('plugins.mason')
+require('plugins.telescope')
+require('plugins.nullls')
+require('plugins.cmp')
+require('plugins.alpha')
+require('plugins.hop')
+require('plugins.lualine')
+require('plugins.toggleterm')
+require('plugins.gitsigns')
