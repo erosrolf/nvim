@@ -33,9 +33,8 @@ vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
 vim.keymap.set('n', '<leader>ld', vim.diagnostic.setloclist)
 
 -- Terminal
-vim.keymap.set('n', '<leader>tt', ':ToggleTerm direction=float<CR>')
--- vim.keymap.set('n', '<leader>tf', ':ToggleTerm direction=float<CR>')
--- vim.keymap.set('n', '<leader>tv', ':ToggleTerm direction=vertical size=40<CR>')
+vim.keymap.set('n', '<leader>tf', ':ToggleTerm direction=float<CR>')
+vim.keymap.set('n', '<leader>tv', ':ToggleTerm direction=vertical size=40<CR>')
 vim.keymap.set('t', '<Esc>', '<cmd>ToggleTermToggleAll<CR>')
 
 -- Lazygit
