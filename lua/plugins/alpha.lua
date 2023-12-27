@@ -111,9 +111,10 @@ end
 
 dashboard.section.buttons.val = {
   button("<SPC e>",   icons.fileNoBg .. " " .. "Neotree",               "<cmd>Neotree<CR>",                                             {}),
-  button("<S-P>",     icons.word .. " " .. "Find Word",                 "<cmd>lua require('plugins.telescope.pickers.multi-rg')()<CR>", {}),
+  button("<S-P>",     icons.word .. " " .. "Find Word",                 "<cmd>Telescope live_grep<CR>",                                 {}),
   button("SPC s h",   icons.fileRecent .. " " .. "Recents",             "<cmd>Telescope oldfiles hidden=true<CR>",                      {}),
   button("SPC / s d", icons.timer .. " " .. "Load Current Dir Session", "<cmd>SessionManager load_current_dir_session<CR>",             {}),
+  button("SPC / d b", icons.timer .. " " .. "DBUI",                     ":DBUIToggle | echo tut<CR>",                                   {}),
   button("SPC / u",   icons.packageDown .. " " .. "Update Plugins",     "<cmd>Lazy update<CR>",                                         {}),
   button("SPC / i",   icons.package .. " " .. "Manage Plugins",         "<cmd>Lazy<CR>",                                                {}),
   button("SPC / c",   icons.cog .. " " .. "Settings",                   "<cmd>e $MYVIMRC<CR>",                                          {}),
